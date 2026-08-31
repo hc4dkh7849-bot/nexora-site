@@ -7,3 +7,9 @@ function sendForm(e){
  window.location.href=`mailto:nexora.creation.fr@gmail.com?subject=${subject}&body=${body}`;
  s.textContent='Ouverture de votre messagerie…';
 }
+function toggleMenu(){
+ const menu=document.getElementById('mobileMenu');
+ const btn=document.querySelector('.menu-toggle');
+ const open=menu.classList.toggle('open');
+ if(btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
