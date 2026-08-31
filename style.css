@@ -26,3 +26,23 @@
  .visual-label{margin-bottom:8px}
  .floating-note{position:relative;left:auto;bottom:auto;margin:12px 0 0 auto;width:max-content;max-width:92%}
 }
+
+/* V16 — restore mobile header/menu */
+@media(max-width:900px){
+  header.nav{display:flex!important;align-items:center!important;justify-content:space-between!important}
+  header.nav .desktop-nav,header.nav .nav-btn{display:none!important}
+  header.nav .menu-toggle{
+    display:flex!important;align-items:center!important;justify-content:center!important;
+    width:42px!important;height:42px!important;padding:0!important;
+    background:#11110f!important;color:#fff!important;border:0!important;border-radius:4px!important;
+    font-size:0!important;
+  }
+  header.nav .menu-toggle::before{
+    content:'☰';font-size:20px;line-height:1;
+  }
+}
+@media(max-width:560px){
+  header.nav{height:60px!important;padding:0 18px!important}
+  header.nav .logo-vector{width:130px!important;height:34px!important}
+  header.nav .menu-toggle{width:40px!important;height:40px!important}
+}

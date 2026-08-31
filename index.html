@@ -12,9 +12,11 @@
 </head>
 <body>
 <header class="nav">
-  <a href="#top" class="logo"><b>NEXORA</b><span>STUDIO</span></a>
-  <nav><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#tarifs">Tarifs</a><a href="#about">À propos</a></nav>
-  <a href="#contact" class="nav-btn">Démarrer un projet <i>↗</i></a>
+<a href="#top" class="logo-vector" aria-label="NEXORA Studio"><svg viewBox="0 0 330 82" role="img" aria-label="NEXORA Studio"><defs><linearGradient id="nxg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16bfff"/><stop offset=".55" stop-color="#5860ff"/><stop offset="1" stop-color="#b52cff"/></linearGradient></defs><g fill="none" stroke="url(#nxg)" stroke-width="11" stroke-linecap="square"><path d="M18 61V21l43 40V21"/><path d="M61 61l30-40"/></g><text x="104" y="43" fill="#11110f" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="800">NEXORA</text><line x1="105" y1="57" x2="155" y2="57" stroke="#c39d58" stroke-width="2"/><line x1="214" y1="57" x2="315" y2="57" stroke="#c39d58" stroke-width="2"/><text x="161" y="62" fill="#77736b" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="6">STUDIO</text></svg></a>
+<nav class="desktop-nav"><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#tarifs">Tarifs</a><a href="#about">À propos</a></nav>
+<a href="#contact" class="nav-btn">Démarrer un projet <i>↗</i></a>
+<button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" onclick="toggleMenu()">☰</button>
+<div class="mobile-menu" id="mobileMenu"><a href="#services" onclick="toggleMenu()">Services</a><a href="#portfolio" onclick="toggleMenu()">Portfolio</a><a href="#tarifs" onclick="toggleMenu()">Tarifs</a><a href="#about" onclick="toggleMenu()">À propos</a><a href="#contact" class="mobile-cta" onclick="toggleMenu()">Démarrer un projet <span>↗</span></a></div>
 </header>
 
 <main id="top">
