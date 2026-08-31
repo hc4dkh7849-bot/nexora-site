@@ -7,10 +7,10 @@ function sendForm(e){
  window.location.href=`mailto:nexora.creation.fr@gmail.com?subject=${subject}&body=${body}`;
  s.textContent='Ouverture de votre messagerie…';
 }
-function toggleMenu(){
-  const menu = document.getElementById('mobileMenu');
-  const btn = document.querySelector('.menu-toggle');
-  if (!menu) return;
-  const open = menu.classList.toggle('open');
-  if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+function toggleNexoraMenu(){
+  const m=document.getElementById('nxMobileMenu');
+  const b=document.querySelector('.nx-menu-btn');
+  if(!m)return;
+  const open=m.classList.toggle('open');
+  if(b)b.setAttribute('aria-expanded',open?'true':'false');
 }
