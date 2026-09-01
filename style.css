@@ -83,3 +83,58 @@ section.pricing .section-intro>p,
 section.about p,
 section.contact p{color:#a7adbb!important}
 section.portfolio h2,section.services h2,section.pricing h2,section.about h2,section.contact h2{color:#f5f7fb!important}
+
+/* V26 — dark preview mockup + dark header */
+.nx-header{
+  background:rgba(8,11,18,.94)!important;
+  border-bottom-color:#20283a!important;
+}
+.nx-desktop-nav a,
+.nx-desktop-cta{color:#f5f7fb!important}
+.nx-desktop-cta{border-color:#394154!important}
+.nx-mobile-menu{
+  background:#080b12!important;
+  border-bottom-color:#20283a!important;
+}
+.nx-mobile-menu a{border-bottom-color:#20283a!important;color:#f5f7fb!important}
+
+/* The browser mockup inside the hero */
+.browser{
+  background:#111827!important;
+  box-shadow:0 40px 90px rgba(0,0,0,.42)!important;
+}
+.browser-top{color:#8f98aa!important}
+.browser-screen{
+  background:
+    radial-gradient(280px 220px at 85% 80%,rgba(91,70,255,.14),transparent 70%),
+    linear-gradient(145deg,#0e1422,#080c16)!important;
+  color:#f5f7fb!important;
+}
+.screen-nav{
+  color:#d7dce7!important;
+}
+.screen-nav strong{color:#fff!important}
+.screen-main small{color:#c9a45c!important}
+.screen-main h2{
+  color:#f5f7fb!important;
+}
+.screen-main h2 em{color:#c9a45c!important}
+.screen-cta{
+  background:#f5f7fb!important;
+  color:#080b12!important;
+}
+.screen-cta b{color:#c9a45c!important}
+.screen-bottom span{
+  background:#171f30!important;
+  border:1px solid #242e43;
+}
+.browser-screen:after{
+  border-color:rgba(201,164,92,.25)!important;
+}
+.stat-card{
+  background:#111827!important;
+  color:#f5f7fb!important;
+  border-left-color:#c9a45c!important;
+  box-shadow:0 20px 45px rgba(0,0,0,.35)!important;
+}
+.stat-card small{color:#a7adbb!important}
