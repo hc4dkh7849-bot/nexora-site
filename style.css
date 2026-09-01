@@ -176,3 +176,64 @@ body {
 .mini-proof {
   color: #a7adbb !important;
 }
+/* CORRECTION FINALE */
+body {
+  background: #080b12 !important;
+  color: #f5f7fb !important;
+}
+
+.hero,
+.services,
+.portfolio,
+.pricing,
+.about,
+.contact {
+  background: #080b12 !important;
+  color: #f5f7fb !important;
+}
+
+.hero h1,
+.hero-copy p,
+.section h2,
+.section h3,
+.about h2,
+.contact h2,
+.service-list h3,
+.work-art strong {
+  color: #f5f7fb !important;
+}
+
+.hero h1 em,
+.section h2 em,
+.contact h2 em,
+.eyebrow,
+.plan-label,
+.visual-label b {
+  color: #c9a45c !important;
+}
+
+.hero-copy > p:not(.eyebrow),
+.section-intro > p,
+.service-list p,
+.about-right > p,
+.contact-copy > p:not(.eyebrow) {
+  color: #a7adbb !important;
+}
+
+.hero-offer b {
+  color: #f5f7fb !important;
+}
+
+.text-btn {
+  color: #f5f7fb !important;
+}
+
+.button {
+  background: #f5f7fb !important;
+  color: #080b12 !important;
+}
+
+.button b,
+.text-btn span {
+  color: #c9a45c !important;
+}
