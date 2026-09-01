@@ -190,3 +190,21 @@ footer {
   .nav, .nx-header { height:60px !important; }
   .hero { padding-top:30px !important; }
 }
+/* CORRECTION BOUTON HERO */
+.hero .button {
+  background: #11110f !important;
+  color: #ffffff !important;
+  padding: 16px 21px !important;
+  min-width: 260px !important;
+  min-height: 58px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 0 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.hero .button b {
+  color: #c39d58 !important;
+}
