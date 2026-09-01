@@ -305,3 +305,115 @@ footer{background:#060811;color:#a7adbb;padding:38px 7vw;display:flex;justify-co
     letter-spacing:1.7px !important;
   }
 }
+
+/* V30.3 — badge PRO : position corrigée */
+.pricing .plan.featured > .popular{
+  position:absolute !important;
+  z-index:3 !important;
+  top:18px !important;
+  right:18px !important;
+  left:auto !important;
+  bottom:auto !important;
+  display:block !important;
+  width:auto !important;
+  min-width:0 !important;
+  height:auto !important;
+  margin:0 !important;
+  padding:12px 18px !important;
+  box-sizing:border-box !important;
+  background:#c9a45c !important;
+  color:#080b12 !important;
+  font-size:9px !important;
+  font-weight:800 !important;
+  line-height:1.2 !important;
+  letter-spacing:2px !important;
+  text-align:center !important;
+  white-space:nowrap !important;
+  overflow:visible !important;
+}
+
+/* V31 — Hero premium polish only */
+.hero-v15{
+  position:relative;
+  isolation:isolate;
+}
+.hero-v15:before{
+  content:'';
+  position:absolute;
+  width:520px;
+  height:520px;
+  left:-280px;
+  top:-180px;
+  border:1px solid rgba(201,164,92,.10);
+  border-radius:50%;
+  pointer-events:none;
+  z-index:-1;
+}
+.hero-v15 .hero-copy{
+  position:relative;
+  z-index:2;
+}
+.hero-v15 .eyebrow{
+  display:inline-flex;
+  align-items:center;
+  padding:8px 12px;
+  border:1px solid rgba(201,164,92,.28);
+  border-radius:999px;
+  background:rgba(201,164,92,.06);
+}
+.hero-v15 h1{
+  max-width:760px;
+  text-wrap:balance;
+}
+.hero-v15 .hero-copy>p:not(.eyebrow){
+  max-width:590px;
+  color:#b0b6c2!important;
+}
+.hero-v15 .hero-offer{
+  width:max-content;
+  max-width:100%;
+  padding:10px 14px;
+  border:1px solid #252d3d;
+  border-radius:4px;
+  background:#0d1220;
+}
+.hero-v15 .hero-offer b{
+  color:#fff!important;
+}
+.hero-v15 .hero-buttons{
+  gap:18px;
+}
+.hero-v15 .hero-buttons .button{
+  min-width:205px!important;
+  min-height:54px!important;
+  box-shadow:0 14px 35px rgba(0,0,0,.22);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.hero-v15 .hero-buttons .button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 20px 45px rgba(0,0,0,.32);
+}
+.hero-v15 .text-btn{
+  opacity:.9;
+}
+.hero-v15 .mini-proof{
+  padding-top:18px;
+  border-top:1px solid #252d3d;
+  max-width:600px;
+}
+.hero-v15 .hero-visual{
+  filter:drop-shadow(0 28px 55px rgba(0,0,0,.18));
+}
+.hero-v15 .visual-label{
+  color:#9aa2b2!important;
+}
+@media(max-width:900px){
+  .hero-v15:before{left:-360px}
+  .hero-v15 .hero-offer{width:auto}
+}
+@media(max-width:560px){
+  .hero-v15 .eyebrow{font-size:8px;letter-spacing:2.2px}
+  .hero-v15 .hero-buttons .button{width:100%}
+  .hero-v15 .hero-offer{font-size:10px}
+  .hero-v15 .mini-proof{gap:12px}
+}
