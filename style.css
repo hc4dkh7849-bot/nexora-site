@@ -208,3 +208,11 @@ footer {
 .hero .button b {
   color: #c39d58 !important;
 }
+.hero .button,
+.hero .button * {
+  color: #ffffff !important;
+}
+
+.hero .button b {
+  color: #c39d58 !important;
+}
