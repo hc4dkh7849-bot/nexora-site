@@ -167,3 +167,59 @@ footer{background:#060811;color:#a7adbb;padding:38px 7vw;display:flex;justify-co
 @media(max-width:560px){
   .pricing .plan.featured h3{font-size:58px}
 }
+
+/* V30 — Pourquoi NEXORA */
+.why{
+  background:#080b12!important;
+  color:#f5f7fb!important;
+  position:relative;
+  overflow:hidden;
+}
+.why .section-intro>p{color:#a7adbb!important}
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+}
+.why-card{
+  display:grid;
+  grid-template-columns:42px 1fr 30px;
+  gap:18px;
+  align-items:center;
+  min-height:150px;
+  padding:25px;
+  background:#0d1220!important;
+  border:1px solid #252d3d;
+  border-radius:7px;
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+}
+.why-card:hover{
+  transform:translateY(-5px);
+  border-color:#c9a45c;
+  box-shadow:0 22px 55px rgba(0,0,0,.28);
+}
+.why-card>span{
+  color:#c9a45c;
+  font-size:10px;
+  letter-spacing:1px;
+}
+.why-card h3{
+  color:#fff!important;
+  font:600 22px 'Space Grotesk';
+  margin:0 0 7px;
+}
+.why-card p{
+  color:#a7adbb!important;
+  font-size:11px;
+  line-height:1.6;
+  margin:0;
+}
+.why-card>b{
+  color:#c9a45c;
+  font-size:18px;
+  text-align:right;
+}
+@media(max-width:700px){
+  .why-grid{grid-template-columns:1fr}
+  .why-card{min-height:125px;padding:22px}
+}
