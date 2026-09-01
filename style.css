@@ -287,3 +287,11 @@ body {
 .button b {
   color: #c9a45c !important;
 }
+.button {
+  color: #080b12 !important;
+  background: #f5f7fb !important;
+}
+
+.button b {
+  color: #c9a45c !important;
+}
