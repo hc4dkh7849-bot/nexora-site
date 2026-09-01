@@ -151,3 +151,28 @@ body {
 .contact {
   background: #080b12 !important;
 }
+/* Correction contraste version sombre */
+.hero h1 {
+  color: #f5f7fb !important;
+}
+
+.hero-copy > p:not(.eyebrow) {
+  color: #a7adbb !important;
+}
+
+.hero-offer b {
+  color: #f5f7fb !important;
+}
+
+.text-btn {
+  color: #f5f7fb !important;
+}
+
+.hero-v15 .button {
+  background: #f5f7fb !important;
+  color: #080b12 !important;
+}
+
+.mini-proof {
+  color: #a7adbb !important;
+}
