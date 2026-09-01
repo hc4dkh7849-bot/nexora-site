@@ -245,3 +245,26 @@ footer{background:#060811;color:#a7adbb;padding:38px 7vw;display:flex;justify-co
     letter-spacing:2.5px;
   }
 }
+
+/* V30.2 — correction du vrai badge .popular */
+.pricing .plan.featured .popular{
+  display:block !important;
+  width:fit-content !important;
+  min-width:190px;
+  box-sizing:border-box;
+  padding:14px 20px !important;
+  margin:0 0 28px auto !important;
+  white-space:nowrap !important;
+  overflow:visible !important;
+  text-align:center !important;
+  letter-spacing:3px !important;
+  line-height:1.2 !important;
+  font-size:10px !important;
+}
+@media(max-width:560px){
+  .pricing .plan.featured .popular{
+    width:100% !important;
+    min-width:0;
+    margin:0 0 28px 0 !important;
+  }
+}
