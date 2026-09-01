@@ -223,3 +223,25 @@ footer{background:#060811;color:#a7adbb;padding:38px 7vw;display:flex;justify-co
   .why-grid{grid-template-columns:1fr}
   .why-card{min-height:125px;padding:22px}
 }
+
+/* V30.1 — correction du badge PRO */
+.pricing .plan.featured > .badge,
+.pricing .plan.featured .badge{
+  white-space:nowrap;
+  overflow:visible;
+  letter-spacing:3px;
+  font-size:10px;
+  line-height:1.2;
+  padding:14px 20px;
+  min-width:190px;
+  text-align:center;
+}
+@media(max-width:560px){
+  .pricing .plan.featured > .badge,
+  .pricing .plan.featured .badge{
+    min-width:0;
+    width:100%;
+    box-sizing:border-box;
+    letter-spacing:2.5px;
+  }
+}
