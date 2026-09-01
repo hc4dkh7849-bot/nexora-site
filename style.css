@@ -26,3 +26,7 @@
  .visual-label{margin-bottom:8px}
  .floating-note{position:relative;left:auto;bottom:auto;margin:12px 0 0 auto;width:max-content;max-width:92%}
 }
+
+/* V22 — logo contrast on dark background */
+.nx-logo svg text { fill:#ffffff !important; }
+.nx-logo svg line { stroke:#c9a45c !important; }
