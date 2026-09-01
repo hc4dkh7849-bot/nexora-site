@@ -263,3 +263,15 @@ body {
 .contact h2 em {
   color: #c9a45c !important;
 }
+.hero h1,
+.hero h1 span,
+.hero h1 strong,
+.hero-copy,
+.hero-copy p,
+.hero-offer,
+.text-btn,
+.mini-proof {
+  color: #f5f7fb !important;
+  -webkit-text-fill-color: #f5f7fb !important;
+  opacity: 1 !important;
+}
