@@ -237,3 +237,29 @@ body {
 .text-btn span {
   color: #c9a45c !important;
 }
+/* FIX TEXTE NOIR */
+.hero h1,
+.hero h1:not(em),
+.hero-offer b,
+.text-btn,
+.hero-copy p,
+.hero-copy > p,
+.mini-proof,
+.section h2,
+.section h3,
+.about h2,
+.contact h2 {
+  color: #f5f7fb !important;
+}
+
+.button {
+  background: #f5f7fb !important;
+  color: #080b12 !important;
+}
+
+.button b,
+.hero h1 em,
+.section h2 em,
+.contact h2 em {
+  color: #c9a45c !important;
+}
