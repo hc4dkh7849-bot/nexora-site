@@ -295,3 +295,13 @@ body {
 .button b {
   color: #c9a45c !important;
 }
+.hero-buttons .button {
+  background: #f5f7fb !important;
+  color: #080b12 !important;
+  -webkit-text-fill-color: #080b12 !important;
+}
+
+.hero-buttons .button b {
+  color: #c9a45c !important;
+  -webkit-text-fill-color: #c9a45c !important;
+}
