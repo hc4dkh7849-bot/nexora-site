@@ -82,3 +82,49 @@ footer{background:#060811;color:#a7adbb;padding:38px 7vw;display:flex;justify-co
  .nx-header{height:60px!important;padding:0 18px!important}.nx-logo{width:130px;height:34px}.nx-menu-btn{width:40px!important;height:40px!important}.nx-mobile-menu{top:60px!important}
  .hero{padding:50px 5vw 70px}.hero h1{font-size:49px;letter-spacing:-2.7px}.hero-copy>p:not(.eyebrow){font-size:16px}.hero-buttons{flex-direction:column;align-items:flex-start;gap:20px}.hero-offer{flex-wrap:wrap;line-height:1.5}.hero-offer b{font-size:16px}.browser-screen{min-height:390px;padding:22px}.screen-main{margin-top:65px}.screen-main h2{font-size:44px}.stat-card{right:-5px}.floating-note{position:relative;left:auto;bottom:auto;margin:12px 0 0 auto;width:max-content;max-width:92%}.section{padding:78px 5vw}.section h2{letter-spacing:-2px}.service-list article{grid-template-columns:40px 1fr 25px}.service-list h3{font-size:23px}.work-art strong{font-size:37px}.plans{gap:12px}.pricing .plan{padding:25px}.pricing .plan h3{margin-top:45px}.maintenance{align-items:flex-start;flex-direction:column;gap:8px}.contact{padding:78px 5vw}footer{padding:30px 5vw;flex-direction:column;align-items:flex-start;gap:15px}
 }
+
+/* V28 — portfolio premium */
+.portfolio{
+  position:relative;
+  overflow:hidden;
+}
+.portfolio:before{
+  content:'';
+  position:absolute;
+  width:520px;height:520px;
+  left:-300px;top:90px;
+  border:1px solid rgba(201,164,92,.10);
+  border-radius:50%;
+  pointer-events:none;
+}
+.work{
+  position:relative;
+  border-radius:8px;
+  box-shadow:0 18px 45px rgba(0,0,0,.22);
+  transition:transform .3s ease,box-shadow .3s ease;
+}
+.work:hover{
+  transform:translateY(-6px);
+  box-shadow:0 28px 65px rgba(0,0,0,.34);
+}
+.work-art{
+  transition:transform .45s ease,filter .45s ease;
+}
+.work:hover .work-art{
+  transform:scale(1.025);
+  filter:saturate(1.08);
+}
+.work-art:before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,transparent 45%,rgba(0,0,0,.42));
+  z-index:0;
+  pointer-events:none;
+}
+.work-art small,.work-art strong,.work-art span{
+  z-index:2;
+}
+.caption{
+  color:#8f96a5!important;
+}
